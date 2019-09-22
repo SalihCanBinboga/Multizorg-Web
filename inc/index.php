@@ -1,0 +1,1 @@
+<?php //header('HTTP/1.0 403 Forbidden'); die("<h1>403 - Access Forbidden!</h1>You can not access this folder...");
