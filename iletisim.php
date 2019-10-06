@@ -9,7 +9,7 @@
     <div class="container">
       <div class="jumbotron" id="iletisim">
         <h1>İletişim</h1>
-        <p id="reup">Bize ulaşabileceğiniz telefon numaralarımız.</p>
+        <p id="reup">Bize ulaşabileceğiniz telefon numaralarımız.s</p>
         <div id="rpf" class="form-inline">
             <div class="form-group">
                 <div class="panel panel-default has-feedback" id="pit">
