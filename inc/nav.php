@@ -19,8 +19,18 @@
             ?>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <?php nvbr('iletisim','İletişim');
-            /* <li><a href="#giris">Giriş Yap</a></li> */
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TR / NL</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-tr"></span> Türkçe</a>
+                <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-nl"></span> Nederlands</a>
+                <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-us"></span> English</a>
+              </div>
+            </li>
+            <?php
+            /* nvbr('iletisim','İletişim');
+            <li class="">Giriş Yap</li>
+            */
             ?>
           </ul>
         </div>
