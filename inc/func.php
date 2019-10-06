@@ -21,7 +21,7 @@ function ftr() {
 function nvbr($witp,$witn) {
     echo '<li';
     if(basename($_SERVER['REQUEST_URI'])==$witp.'.php') {echo ' class="active"';}
-    echo '><a href="'.$witp.'.php">'.$witn.'</a></li>';
+    echo '>'.PHP_EOL.'<a href="'.$witp.'.php">'.$witn.'</a>'.PHP_EOL.'</li>';
 }
     
 class tckn {
