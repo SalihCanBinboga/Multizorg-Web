@@ -24,7 +24,6 @@
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-tr"></span> Türkçe</a>
                 <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-nl"></span> Nederlands</a>
-                <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-us"></span> English</a>
               </div>
             </li>
             <?php
