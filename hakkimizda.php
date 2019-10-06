@@ -10,7 +10,7 @@
       <div class="jumbotron">
         <h1>Hakkımızda</h1>
         <h2>Fiberland</h2>
-        <p>Fiberland Dijital Teknolojileri Ltd. Şti. olarak 2016 yılında hizmet Ankara'nın Çankaya ilçesinde hizmet vermeye başladık. Bugün Çankaya ilçesine bağlı 39 ve Gölbaşı ilçesine bağlı 2 Mahalleye hizmet vermektedir.</p>
+        <p>Fiberland Dijital Teknolojileri Ltd. Şti. olarak 2016 yılında hizmet Ankara'nın Çankaya ilçesinde hizmet vermeye başladık. Bugün Çankaya ilçesine bağlı 39 ve Gölbaşı ilçesine bağlı 2 Mahalleye hizmet vermektedir. </p>
         <p>&nbsp;</p>
         <h2>Mahalle Listemiz</h2>
         <table>
