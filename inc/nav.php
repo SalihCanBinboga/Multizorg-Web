@@ -21,10 +21,10 @@
           <ul class="mr-auto nav navbar-nav navbar-right">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TR / NL</a>
-              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-tr"></span> Türkçe</a>
-                <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-nl"></span> Nederlands</a>
-              </div>
+              <ul class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-tr"></span> Türkçe</a></li>
+                <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-nl"></span> Nederlands</a></li>
+              </ul>
             </li>
             <?php
             /* nvbr('iletisim','İletişim');
@@ -32,6 +32,21 @@
             */
             ?>
           </ul>
+            <?php
+            /* 
+
+          <ul class="mr-auto nav navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TR / NL</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-tr"></span> Türkçe</a>
+                <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-nl"></span> Nederlands</a>
+              </div>
+            </li>
+          </ul>
+
+            */
+            ?>
         </div>
       </div>
     </nav>
