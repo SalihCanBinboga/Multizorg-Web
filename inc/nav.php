@@ -13,7 +13,7 @@
           <ul class="nav navbar-nav">
             <?php
               print_r($GLOBALS);
-              print_r($myLang);
+              echo strlen($myLang);
               if ($myLang == "TR") {
                 nvbr('index','Anasayfa');
                 nvbr('aboutus','Hakkımızda');
