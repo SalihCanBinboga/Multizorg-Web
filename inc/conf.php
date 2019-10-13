@@ -26,4 +26,6 @@
         'userid' => '3417614354',
         'pcount' => 9
     );
+
+    $myLang = 'TR';
     

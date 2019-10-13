@@ -3,6 +3,7 @@
 ?>
 <?php
     include 'inc/def.php';
+    multilang();
     hdr();
     nav();
 ?>      

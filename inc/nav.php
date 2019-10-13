@@ -31,7 +31,7 @@
               <a class="nav-link dropdown-toggle" id="langs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-tr"></span> / <span class="flag-icon flag-icon-nl"></span></a>
               <ul class="dropdown-menu dropdown-primary" aria-labelledby="langs">
                 <li><a class="dropdown-item" value="TR" href="#tr"><span class="flag-icon flag-icon-tr"></span> Türkçe</a></li>
-                <li><a class="dropdown-item" value="TR" href="#nl"><span class="flag-icon flag-icon-nl"></span> Nederlands</a></li>
+                <li><a class="dropdown-item" value="NL" href="#nl"><span class="flag-icon flag-icon-nl"></span> Nederlands</a></li>
               </ul>
             </li>
             <?php
