@@ -7,15 +7,31 @@
     //if ($drs[0]['txt'] != "OK" and $_SERVER['SERVER_NAME'] != "dhs.sitoga.net") {header('HTTP/1.0 403 Forbidden'); die("<h1>403 - Access Forbidden!</h1>You can not access this folder...");}
 
 function multilang($setlang) {
-    if(isset($setlang) and ($setlang == "TR" or $setlang == "NL")) {
-        setcookie('myLang', $setlang, time()+60*60*24);
+    if(isset($setlang)) {
+        $lng = strtoupper($setlang);
+        if ($lng == "TR" or $lng == "NL") {
+            setcookie('myLang', $lng, time()+60*60*24);
+            return $lng;
+        }
+        else {
+            setcookie('myLang', "TR", time()+60*60*24);
+            return "TR";
+        }
     }
     else {
         if(isset($_COOKIE['myLang'])) {
-            $myLang = $_COOKIE['myLang'];
+            return $myLang = $_COOKIE['myLang'];
         }
         else {
-            echo $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+            $lng = strtoupper(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
+            if ($lng == "TR" or $lng == "NL") {
+                setcookie('myLang', $lng, time()+60*60*24);
+                return $lng;
+            }
+            else {
+                setcookie('myLang', "TR", time()+60*60*24);
+                return "TR";
+            }
         }
     }
 }
