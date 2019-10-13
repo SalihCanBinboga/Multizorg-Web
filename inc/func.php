@@ -15,7 +15,7 @@ function multilang($setlang) {
             $myLang = $_COOKIE['myLang'];
         }
         else {
-            echo $GLOBALS['HTTP_ACCEPT_LANGUAGE'];
+            echo $_SERVER['HTTP_ACCEPT_LANGUAGE'];
         }
     }
 }
