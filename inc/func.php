@@ -20,7 +20,7 @@ function multilang($setlang) {
     }
     else {
         if(isset($_COOKIE['myLang'])) {
-            return $myLang = $_COOKIE['myLang'];
+            return $_COOKIE['myLang'];
         }
         else {
             $lng = strtoupper(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
