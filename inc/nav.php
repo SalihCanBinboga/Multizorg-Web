@@ -12,6 +12,8 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <?php
+              print_r($GLOBALS);
+              print_r($myLang);
               if ($myLang == "TR") {
                 nvbr('index','Anasayfa');
                 nvbr('aboutus','Hakkımızda');
