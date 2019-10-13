@@ -24,6 +24,9 @@
                 nvbr('services','Diensten');
                 nvbr('workat','Werken bij');
               }
+              else {
+                nvbr('index','HOME');
+              }
             ?>
           </ul>
           <ul class="mr-auto nav navbar-nav navbar-right">
