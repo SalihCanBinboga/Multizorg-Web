@@ -5,6 +5,8 @@
     ?><h1>403 - Access Forbidden!</h1>You can not access this folder...<?php
     }*/
     
+ob_start();
+
 include 'inc/conf.php';
 include 'inc/func.php';
 

@@ -12,16 +12,24 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <?php
-              nvbr('index','Anasayfa');
-              nvbr('kampanyalar','Kampanyalar');
-              nvbr('hakkimizda','Hakkımızda');
-              nvbr('galeri','Galeri');
+              if (true) {
+                nvbr('index','Anasayfa');
+                nvbr('kampanyalar','Kampanyalar');
+                nvbr('hakkimizda','Hakkımızda');
+                nvbr('galeri','Galeri');
+              }
+              elseif (true) {
+                nvbr('index','Anasayfa');
+                nvbr('kampanyalar','Kampanyalar');
+                nvbr('hakkimizda','Hakkımızda');
+                nvbr('galeri','Galeri');
+              }
             ?>
           </ul>
           <ul class="mr-auto nav navbar-nav navbar-right">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-tr"></span> / <span class="flag-icon flag-icon-nl"></span></a>
-              <ul class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="nav-link dropdown-toggle" id="langs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-tr"></span> / <span class="flag-icon flag-icon-nl"></span></a>
+              <ul class="dropdown-menu dropdown-primary" aria-labelledby="langs">
                 <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-tr"></span> Türkçe</a></li>
                 <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-nl"></span> Nederlands</a></li>
               </ul>

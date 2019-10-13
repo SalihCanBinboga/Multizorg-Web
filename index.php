@@ -8,7 +8,13 @@
 ?>      
     <div class="container">
       <div class="jumbotron">
-        Hello
+        <?php
+            echo $GLOBALS['HTTP_ACCEPT_LANGUAGE'];
+            echo "<hr><hr>";
+            if($lang=="tr") { echo "Türkçe"; }
+            elseif($lang=="nl") { echo "Nederlands"; }
+            else { echo "English"; }
+        ?>
       </div>
     </div>
 <?php ftr(); ?>

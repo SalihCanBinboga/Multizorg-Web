@@ -6,6 +6,20 @@
     //$drs = dns_get_record($_SERVER['SERVER_NAME'].".keys.eldemozturk.com", DNS_TXT);
     //if ($drs[0]['txt'] != "OK" and $_SERVER['SERVER_NAME'] != "dhs.sitoga.net") {header('HTTP/1.0 403 Forbidden'); die("<h1>403 - Access Forbidden!</h1>You can not access this folder...");}
 
+function multilang($setlang) {
+    if(isset($setlang) and ($setlang == "TR" or $setlang == "NL")) {
+        setcookie('myLang', $setlang, time()+60*60*24);
+    }
+    else {
+        if(isset($_COOKIE['myLang'])) {
+            $myLang = $_COOKIE['myLang'];
+        }
+        else {
+            echo $GLOBALS['HTTP_ACCEPT_LANGUAGE'];
+        }
+    }
+}
+
 function hdr() {
     include 'inc/header.php';
 }

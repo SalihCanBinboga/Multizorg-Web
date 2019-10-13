@@ -46,3 +46,6 @@ body {background:transparent url(../img/bg.jpg) no-repeat center center fixed;-w
   margin-left:0px;
   margin-right:8px;
 }
+.navbar-nav>li:hover {
+    background: #161616;
+}
