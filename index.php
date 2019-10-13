@@ -1,9 +1,9 @@
 <?php
+    include 'inc/def.php';
+    multilang();
     $title="Multizorg";
 ?>
 <?php
-    include 'inc/def.php';
-    multilang();
     hdr();
     nav();
 ?>      
