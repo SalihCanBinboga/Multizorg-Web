@@ -12,15 +12,13 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <?php
-              print_r($GLOBALS);
-              echo strlen($GLOBALS['myLang']);
-              if ($myLang=="TR") {
+              if ($GLOBALS['myLang']=="TR") {
                 nvbr('index','Anasayfa');
                 nvbr('aboutus','Hakkımızda');
                 nvbr('services','Hizmetler');
                 nvbr('workat','Çalışma');
               }
-              elseif ($myLang=="NL") {
+              elseif ($GLOBALS['myLang']=="NL") {
                 nvbr('index','Home');
                 nvbr('aboutus','Over ons');
                 nvbr('services','Diensten');
