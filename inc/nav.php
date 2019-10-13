@@ -13,14 +13,14 @@
           <ul class="nav navbar-nav">
             <?php
               print_r($GLOBALS);
-              echo strlen($myLang);
-              if ($myLang == "TR") {
+              echo strlen($GLOBALS['myLang']);
+              if ($myLang=="TR") {
                 nvbr('index','Anasayfa');
                 nvbr('aboutus','Hakkımızda');
                 nvbr('services','Hizmetler');
                 nvbr('workat','Çalışma');
               }
-              elseif ($myLang == "NL") {
+              elseif ($myLang=="NL") {
                 nvbr('index','Home');
                 nvbr('aboutus','Over ons');
                 nvbr('services','Diensten');
